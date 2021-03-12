@@ -1,6 +1,7 @@
 var hamburger = $('.hamburger-menu');
-var ham_btn = $('.fa-bars');
+var ham_btn = $('.fas.fa-bars');
 var close_btn = $('.close');
+
 ham_btn.click(
     function(){
         hamburger.addClass('active')
